@@ -21,6 +21,30 @@ header {
     letter-spacing: 0.02em;
 }
 
+.nav:hover, .contact-header:hover, .contact-footer:hover,
+.logo:hover, .address:hover {
+    color: #2196F3;
+    /* text-decoration: underline; */
+    cursor: pointer;
+}
+
+.buttons:hover {
+    color: #FFFFFF;
+    background-color: #2196F3;
+    /* text-decoration: underline; */
+    cursor: pointer;
+}
+
+.nav:focus, .contact-header:focus, .contact-footer:focus,
+.logo:focus, .address:focus {
+    color: #2196F3;
+}
+
+.buttons:focus {
+    color: #FFFFFF;
+    background-color:  #2196F3;
+}
+
 footer, .section-main {
     background-color: #2F303A;
 }
@@ -48,10 +72,12 @@ footer, .section-main {
 
 .contact-header {
     color: #757575;
+    font-style: normal;
 }
 
 .contact-footer {
     color: rgba(255, 255, 255, 0.6);
+    font-style: normal;
 }
 
 .address {
