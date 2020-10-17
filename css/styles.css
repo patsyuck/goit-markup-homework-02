@@ -151,3 +151,11 @@ footer, .section-main {
     line-height: 19px;
     text-align: center;
 }
+
+.desc-project {
+    color: #757575;
+}
+
+.studio, .portfolio {
+    color: #2196F3;
+}
